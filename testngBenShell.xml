@@ -6,7 +6,7 @@
 	<parameter name="appURL" value="http://opensource.demo.orangehrmlive.com/" />
 	<test verbose="2" name="Chrome">
 		<packages>
-			<package name="com.demo.*" />
+			<package name="com.maventest.*" />
 		</packages>
 
 		<method-selectors>

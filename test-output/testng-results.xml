@@ -1,105 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Driver Launched]]>
     </line>
-    <line>
-      <![CDATA[Navigated tohttp://opensource.demo.orangehrmlive.com/]]>
-    </line>
-    <line>
-      <![CDATA[UserName entered Admin]]>
-    </line>
-    <line>
-      <![CDATA[Password entered admin]]>
-    </line>
-    <line>
-      <![CDATA[submit button clicked]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15198" started-at="2018-04-23T15:36:06Z" finished-at="2018-04-23T15:36:21Z">
+  <suite name="Default suite" duration-ms="5140" started-at="2018-04-23T13:48:27Z" finished-at="2018-04-23T13:48:33Z">
     <groups>
       <group name="sampleTest01">
-        <method signature="AssertVsVerify1.testNG()[pri:0, instance:com.maventest.mavens.AssertVsVerify1@2a5ca609]" name="testNG" class="com.maventest.mavens.AssertVsVerify1"/>
-      </group>
+        <method signature="TestCase2.m1()[pri:0, instance:com.maventest.mavens.TestCase2@47c62251]" name="m1" class="com.maventest.mavens.TestCase2"/>
+      </group> <!-- sampleTest01 -->
     </groups>
-    <test name="Default test" duration-ms="15198" started-at="2018-04-23T15:36:06Z" finished-at="2018-04-23T15:36:21Z">
-      <class name="com.maventest.mavens.AssertVsVerify1">
-        <test-method status="PASS" signature="GenReport(org.testng.ITestContext)[pri:0, instance:com.maventest.mavens.AssertVsVerify1@2a5ca609]" name="GenReport" is-config="true" duration-ms="13" started-at="2018-04-23T15:36:06Z" finished-at="2018-04-23T15:36:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@6da21078]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="FAIL" signature="testNG()[pri:0, instance:com.maventest.mavens.AssertVsVerify1@2a5ca609]" name="testNG" duration-ms="15165" started-at="2018-04-23T15:36:06Z" finished-at="2018-04-23T15:36:21Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=66.0.3359.117)
-  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'INDHYDELP029', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true, webdriver.remote.sessionid: 0ab40c0227043f9cb696c20361a...}
-Session ID: 0ab40c0227043f9cb696c20361a89d85]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=66.0.3359.117)
-  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'INDHYDELP029', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.117, webStorageEnabled: true, webdriver.remote.sessionid: 0ab40c0227043f9cb696c20361a...}
-Session ID: 0ab40c0227043f9cb696c20361a89d85
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
-	at com.maventest.mavens.AssertVsVerify1.testNG(AssertVsVerify1.java:55)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:691)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:883)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1208)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:758)
-	at org.testng.TestRunner.run(TestRunner.java:613)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1137)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1062)
-	at org.testng.TestNG.run(TestNG.java:974)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception>
-        </test-method>
-      </class>
-    </test>
-  </suite>
+    <test name="Default test" duration-ms="5140" started-at="2018-04-23T13:48:27Z" finished-at="2018-04-23T13:48:33Z">
+      <class name="com.maventest.mavens.TestCase2">
+        <test-method status="PASS" signature="m1()[pri:0, instance:com.maventest.mavens.TestCase2@47c62251]" name="m1" duration-ms="5106" started-at="2018-04-23T19:18:27Z" finished-at="2018-04-23T19:18:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- com.maventest.mavens.TestCase2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

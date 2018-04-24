@@ -12,7 +12,7 @@
 		<method-selectors>
 			<method-selector>
 				<script language="beanshell"><![CDATA[
-         			groups.containsKey("sampleTest01")
+         			groups.containsKey("Regression")
        			]]></script>
 			</method-selector>
 		</method-selectors>

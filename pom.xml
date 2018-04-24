@@ -16,11 +16,10 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.21.0</version>
 				<configuration>
-				 <testFailureIgnore>true</testFailureIgnore>
-				 <useSystemClassLoader>false</useSystemClassLoader>
+				 
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testngBenShell.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

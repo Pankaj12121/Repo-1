@@ -16,9 +16,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.21.0</version>
 				<configuration>
-					<groups>functest,perftest</groups>
-					<parallel>tests</parallel>
-         			<threadCount>5</threadCount>
 					<useSystemClassLoader>false</useSystemClassLoader>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>

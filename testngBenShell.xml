@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="tests" thread-count="5">
 	<parameter name="browsername" value="firefox" />
 	<parameter name="browserversion" value="60" />

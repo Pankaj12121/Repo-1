@@ -16,7 +16,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.21.0</version>
 				<configuration>
-				 
+				 <parallel>tests</parallel>
+         		 <threadCount>5</threadCount>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
 						<suiteXmlFile>testngBenShell.xml</suiteXmlFile>
@@ -44,6 +45,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.11</version>
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>

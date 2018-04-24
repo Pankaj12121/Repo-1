@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)" preserve-order="true">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="appURL" value="http://opensource.demo.orangehrmlive.com/"/>
+  <parameter name="browsername" value="firefox"/>
+  <parameter name="browserversion" value="60"/>
+  <parameter name="platform" value="windows"/>
+  <test name="Chrome(failed)" parallel="tests">
+    <method-selectors>
+      <method-selector>
+        <script language="BeanShell">
+          <![CDATA[
+         			groups.containsKey("sampleTest01")
+       			]]>
+        </script>
+      </method-selector>
+    </method-selectors>
     <classes>
-      <class name="com.maventest.mavens.AssertVsVerify1">
+      <class name="com.maventest.mavens.TestCase2">
         <methods>
-          <include name="GenReport"/>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- com.maventest.mavens.TestCase2 -->
+      <class name="com.maventest.mavens.TestCase1">
+        <methods>
           <include name="testNG"/>
         </methods>
-      </class>
+      </class> <!-- com.maventest.mavens.TestCase1 -->
     </classes>
-  </test>
-</suite>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

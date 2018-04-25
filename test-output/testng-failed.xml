@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="tests">
-  <parameter name="appURL" value="http://opensource.demo.orangehrmlive.com/"/>
-  <parameter name="browsername" value="firefox"/>
-  <parameter name="browserversion" value="60"/>
-  <parameter name="platform" value="windows"/>
-  <test name="Chrome(failed)" parallel="tests">
-    <method-selectors>
-      <method-selector>
-        <script language="BeanShell">
-          <![CDATA[
-         			groups.containsKey("sampleTest01")
-       			]]>
-        </script>
-      </method-selector>
-    </method-selectors>
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowserTestSuite]" parallel="tests">
+  <test name="Test Firefox(failed)" parallel="methods">
+    <parameter name="browserType" value="Firefox"/>
     <classes>
-      <class name="com.maventest.mavens.TestCase2">
+      <class name="com.maventest.mavens.CBT">
         <methods>
-          <include name="m1"/>
+          <include name="setup" invocation-numbers="0"/>
+          <include name="GenReport"/>
         </methods>
-      </class> <!-- com.maventest.mavens.TestCase2 -->
-      <class name="com.maventest.mavens.TestCase1">
-        <methods>
-          <include name="testNG"/>
-        </methods>
-      </class> <!-- com.maventest.mavens.TestCase1 -->
+      </class> <!-- com.maventest.mavens.CBT -->
     </classes>
-  </test> <!-- Chrome(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Test Firefox(failed) -->
+  <test name="Test Chrome(failed)" parallel="methods">
+    <parameter name="browserType" value="Chrome"/>
+    <classes>
+      <class name="com.maventest.mavens.CBT">
+        <methods>
+          <include name="setup" invocation-numbers="0"/>
+          <include name="GenReport"/>
+        </methods>
+      </class> <!-- com.maventest.mavens.CBT -->
+    </classes>
+  </test> <!-- Test Chrome(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTestSuite] -->

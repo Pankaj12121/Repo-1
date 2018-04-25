@@ -20,7 +20,7 @@
          		 <threadCount>5</threadCount>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testngCBT.xml</suiteXmlFile>
+						<suiteXmlFile>testngBenShell.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

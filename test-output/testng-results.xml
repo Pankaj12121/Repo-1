@@ -1,90 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[UserName entered Admin]]>
-    </line>
-    <line>
-      <![CDATA[Password entered admin]]>
-    </line>
-    <line>
-      <![CDATA[UserName entered Admin]]>
-    </line>
-    <line>
-      <![CDATA[Password entered admin]]>
-    </line>
-    <line>
-      <![CDATA[submit button clicked]]>
-    </line>
-    <line>
-      <![CDATA[submit button clicked]]>
-    </line>
   </reporter-output>
-  <suite name="CrossBrowserTestSuite" duration-ms="10417" started-at="2018-04-25T09:42:17Z" finished-at="2018-04-25T09:42:27Z">
+  <suite name="Default suite" duration-ms="582" started-at="2018-04-26T06:08:44Z" finished-at="2018-04-26T06:08:45Z">
     <groups>
     </groups>
-    <test name="Test Chrome" duration-ms="9903" started-at="2018-04-25T09:42:17Z" finished-at="2018-04-25T09:42:27Z">
-      <class name="com.maventest.mavens.CBT">
-        <test-method status="PASS" signature="dir()[pri:0, instance:com.maventest.mavens.CBT@5700d6b1]" name="dir" is-config="true" duration-ms="29" started-at="2018-04-25T15:12:17Z" finished-at="2018-04-25T15:12:17Z">
+    <test name="Default test" duration-ms="582" started-at="2018-04-26T06:08:44Z" finished-at="2018-04-26T06:08:45Z">
+      <class name="com.maventest.mavens.ExtentManager">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="startTest" is-config="true" duration-ms="270" started-at="2018-04-26T11:38:44Z" finished-at="2018-04-26T11:38:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dir -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maventest.mavens.CBT@5700d6b1]" name="setup" duration-ms="9870" started-at="2018-04-25T15:12:17Z" finished-at="2018-04-25T15:12:27Z">
+        </test-method> <!-- startTest -->
+        <test-method status="FAIL" signature="demoReportFail()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="demoReportFail" duration-ms="9" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[test Failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: test Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at com.maventest.mavens.ExtentManager.demoReportFail(ExtentManager.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoReportFail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="getResult" is-config="true" duration-ms="7" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[[TestResult name=demoReportFail status=FAILURE method=ExtentManager.demoReportFail()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[UserName entered Admin]]>
-            </line>
-            <line>
-              <![CDATA[Password entered admin]]>
-            </line>
-            <line>
-              <![CDATA[submit button clicked]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="GenReport(org.testng.ITestContext)[pri:0, instance:com.maventest.mavens.CBT@5700d6b1]" name="GenReport" is-config="true" duration-ms="1" started-at="2018-04-25T15:12:27Z" finished-at="2018-04-25T15:12:27Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="demoReportPass()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="demoReportPass" duration-ms="2" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoReportPass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="getResult" is-config="true" duration-ms="0" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a8806ef]]>
+                <![CDATA[[TestResult name=demoReportPass status=SUCCESS method=ExtentManager.demoReportPass()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GenReport -->
-      </class> <!-- com.maventest.mavens.CBT -->
-    </test> <!-- Test Chrome -->
-    <test name="Test Firefox" duration-ms="10417" started-at="2018-04-25T09:42:17Z" finished-at="2018-04-25T09:42:27Z">
-      <class name="com.maventest.mavens.CBT">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maventest.mavens.CBT@1a968a59]" name="setup" duration-ms="10387" started-at="2018-04-25T15:12:17Z" finished-at="2018-04-25T15:12:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="endReport" is-config="true" duration-ms="263" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
           <reporter-output>
-            <line>
-              <![CDATA[UserName entered Admin]]>
-            </line>
-            <line>
-              <![CDATA[Password entered admin]]>
-            </line>
-            <line>
-              <![CDATA[submit button clicked]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- com.maventest.mavens.CBT -->
-    </test> <!-- Test Firefox -->
-  </suite> <!-- CrossBrowserTestSuite -->
+        </test-method> <!-- endReport -->
+      </class> <!-- com.maventest.mavens.ExtentManager -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

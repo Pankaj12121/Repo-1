@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowserTestSuite]" parallel="tests">
-  <test name="Test Firefox(failed)" parallel="methods">
-    <parameter name="browserType" value="Firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.maventest.mavens.CBT">
+      <class name="com.maventest.mavens.ExtentManager">
         <methods>
-          <include name="setup" invocation-numbers="0"/>
-          <include name="GenReport"/>
+          <include name="startTest"/>
+          <include name="demoReportFail"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- com.maventest.mavens.CBT -->
+      </class> <!-- com.maventest.mavens.ExtentManager -->
     </classes>
-  </test> <!-- Test Firefox(failed) -->
-  <test name="Test Chrome(failed)" parallel="methods">
-    <parameter name="browserType" value="Chrome"/>
-    <classes>
-      <class name="com.maventest.mavens.CBT">
-        <methods>
-          <include name="setup" invocation-numbers="0"/>
-          <include name="GenReport"/>
-        </methods>
-      </class> <!-- com.maventest.mavens.CBT -->
-    </classes>
-  </test> <!-- Test Chrome(failed) -->
-</suite> <!-- Failed suite [CrossBrowserTestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

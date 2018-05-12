@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.maventest.mavens.ExtentManager">
+      <class name="com.maventest.mavens.TestCase2">
         <methods>
-          <include name="startTest"/>
-          <include name="demoReportFail"/>
-          <include name="endReport"/>
-          <include name="getResult"/>
+          <include name="testCase2"/>
         </methods>
-      </class> <!-- com.maventest.mavens.ExtentManager -->
+      </class> <!-- com.maventest.mavens.TestCase2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [CrossBrowserTestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.maventest.mavens.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="Test Chrome(failed)" parallel="methods">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.maventest.mavens.TestCase2">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- com.maventest.mavens.TestCase2 -->
+      <class name="com.maventest.mavens.TestCase1">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- com.maventest.mavens.TestCase1 -->
+    </classes>
+  </test> <!-- Test Chrome(failed) -->
+</suite> <!-- Failed suite [CrossBrowserTestSuite] -->

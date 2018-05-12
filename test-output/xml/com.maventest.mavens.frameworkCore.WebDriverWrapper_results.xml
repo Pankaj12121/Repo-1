@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chrome"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="0.000">
+  <properties />
+            <testcase name="GenTestNGReport" time="0.000" classname="com.maventest.mavens.frameworkCore.WebDriverWrapper">
+                <failure type="org.testng.TestNGException"
+                  message="
+Can inject only one of &lt;ITestContext, XmlTest&gt; into a BeforeSuite annotated GenTestNGReport.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection"
+              >
+<![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a BeforeSuite annotated GenTestNGReport.
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+  org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+  org.testng.internal.Parameters.createParameters(Parameters.java:172)
+  org.testng.internal.Parameters.createParameters(Parameters.java:458)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="afterSuite" time="0.0" classname="com.maventest.mavens.frameworkCore.WebDriverWrapper">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

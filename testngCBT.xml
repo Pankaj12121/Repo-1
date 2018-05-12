@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CrossBrowserTestSuite" thread-count="3" parallel="tests"> 
+<listeners>
+    <listener class-name="com.maventest.mavens.ExtentTestNGIReporterListener"/>
+</listeners>
+
+  <test verbose="2" name="Test Chrome" thread-count="5" parallel="methods">
+  	<parameter name="browserType" value="chrome"></parameter>
+    <classes>
+      <class name="com.maventest.mavens.TestCase1"/>
+      <class name="com.maventest.mavens.TestCase2"/>
+    </classes>
+  </test> 
+ 
+</suite>

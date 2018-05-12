@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[UserName entered Admin]]>
+    </line>
+    <line>
+      <![CDATA[Password entered admin]]>
+    </line>
+    <line>
+      <![CDATA[UserName entered Admin]]>
+    </line>
+    <line>
+      <![CDATA[Password entered admin]]>
+    </line>
+    <line>
+      <![CDATA[submit button clicked]]>
+    </line>
+    <line>
+      <![CDATA[submit button clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="CrossBrowserTestSuite" duration-ms="12239" started-at="2018-04-26T06:16:33Z" finished-at="2018-04-26T06:16:45Z">
+    <groups>
+    </groups>
+    <test name="Test Firefox" duration-ms="12077" started-at="2018-04-26T06:16:33Z" finished-at="2018-04-26T06:16:45Z">
+      <class name="com.maventest.mavens.CBT">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maventest.mavens.CBT@3159c4b8]" name="setup" duration-ms="12052" started-at="2018-04-26T11:46:33Z" finished-at="2018-04-26T11:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[UserName entered Admin]]>
+            </line>
+            <line>
+              <![CDATA[Password entered admin]]>
+            </line>
+            <line>
+              <![CDATA[submit button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.maventest.mavens.CBT -->
+    </test> <!-- Test Firefox -->
+    <test name="Test Chrome" duration-ms="12239" started-at="2018-04-26T06:16:33Z" finished-at="2018-04-26T06:16:45Z">
+      <class name="com.maventest.mavens.CBT">
+        <test-method status="PASS" signature="GenReport(org.testng.ITestContext)[pri:0, instance:com.maventest.mavens.CBT@21213b92]" name="GenReport" is-config="true" duration-ms="13" started-at="2018-04-26T11:46:33Z" finished-at="2018-04-26T11:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d6eabae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenReport -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maventest.mavens.CBT@21213b92]" name="setup" duration-ms="12214" started-at="2018-04-26T11:46:33Z" finished-at="2018-04-26T11:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[UserName entered Admin]]>
+            </line>
+            <line>
+              <![CDATA[Password entered admin]]>
+            </line>
+            <line>
+              <![CDATA[submit button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.maventest.mavens.CBT -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- CrossBrowserTestSuite -->
+</testng-results>

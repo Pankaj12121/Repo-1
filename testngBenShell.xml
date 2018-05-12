@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="tests" thread-count="5">
-	<parameter name="browsername" value="firefox" />
-	<parameter name="browserversion" value="60" />
+	<listeners>
+		<listener class-name="com.maventest.mavens.ExtentTestNGIReporterListener" />
+	</listeners>
+	
+	<parameter name="browsername" value="chrome" />
+	<parameter name="browserversion" value="66" />
 	<parameter name="platform" value="windows" />
 	<parameter name="appURL" value="http://opensource.demo.orangehrmlive.com/" />
-	<test verbose="2" name="Chrome" parallel="methods" thread-count="5">
+
+	<test verbose="2" name="chrome" parallel="methods" thread-count="5">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
 		<packages>
 			<package name="com.maventest.*" />
 		</packages>

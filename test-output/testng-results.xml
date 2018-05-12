@@ -1,27 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[<B><Font Color = "black">Driver Launched :null </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">Driver Launched :chrome </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[Navigated tohttp://opensource.demo.orangehrmlive.com/]]>
+    </line>
+    <line>
+      <![CDATA[Navigated tohttp://opensource.demo.orangehrmlive.com/]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">UserName entered ::Admin </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">Password entered ::admin </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">UserName entered ::Admin </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">Password entered ::admin </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">Submit buttin Clicked </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">Submit buttin Clicked </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "green">1.  Actual= Welcome Admin;  Expected= Welcome Admin ; PASSED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">2.  Actual= OrangeHRM1;  Expected= OrangeHRM ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM] but found [OrangeHRM1]</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: Admin's organization of organization name]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">3.  Actual= Admin's organization;  Expected= OrangeHRM (Pvt) Ltd ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM (Pvt) Ltd] but found [Admin's organization]</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text:  of organization tax ID]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">4.  Actual= ;  Expected= 123456 ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [123456] but found []</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">5.  Actual= ;  Expected= 32 ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [32] but found []</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: A23456 of organization registration number]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "green">6.  Actual= A23456;  Expected= A23456 ; PASSED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: info@admin.com of organization email]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">7.  Actual= info@admin.com;  Expected= info@orangehrm.com ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [info@orangehrm.com] but found [info@admin.com]</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: Cankarjeva 2 of organization Address]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">8.  Actual= Cankarjeva 2;  Expected= 538 Teal Plaza ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [538 Teal Plaza] but found [Cankarjeva 2]</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: Novo Mesto of organization city]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">9.  Actual= Novo Mesto;  Expected= Secaucus ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [Secaucus] but found [Novo Mesto]</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: US of organization country]]>
+    </line>
+    <line>
+      <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "red">10.  Actual= US;  Expected= United states ; FAILED </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [United states] but found [US]</B>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="582" started-at="2018-04-26T06:08:44Z" finished-at="2018-04-26T06:08:45Z">
+  <suite name="Suite" duration-ms="16404" started-at="2018-05-09T11:36:21Z" finished-at="2018-05-09T11:36:38Z">
     <groups>
+      <group name="Regression">
+        <method signature="TestCase1.testCase1(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase1@32eebfca]" name="testCase1" class="com.maventest.mavens.TestCase1"/>
+        <method signature="TestCase2.testCase2(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase2@4e718207]" name="testCase2" class="com.maventest.mavens.TestCase2"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="Default test" duration-ms="582" started-at="2018-04-26T06:08:44Z" finished-at="2018-04-26T06:08:45Z">
-      <class name="com.maventest.mavens.ExtentManager">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="startTest" is-config="true" duration-ms="270" started-at="2018-04-26T11:38:44Z" finished-at="2018-04-26T11:38:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTest -->
-        <test-method status="FAIL" signature="demoReportFail()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="demoReportFail" duration-ms="9" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
-          <exception class="java.lang.AssertionError">
+    <test name="chrome" duration-ms="16404" started-at="2018-05-09T11:36:21Z" finished-at="2018-05-09T11:36:38Z">
+      <class name="com.maventest.mavens.TestCase2">
+        <test-method status="FAIL" signature="testCase2(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase2@4e718207]" name="testCase2" duration-ms="16380" started-at="2018-05-09T17:06:21Z" finished-at="2018-05-09T17:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[test Failed expected [true] but found [false]]]>
+              <![CDATA[no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INDHYDELP029', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true, webdriver.remote.sessionid: 540da5b14e3e14a29dd41a2a673...}
+Session ID: 540da5b14e3e14a29dd41a2a6738d409]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: test Failed expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at com.maventest.mavens.ExtentManager.demoReportFail(ExtentManager.java:40)
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: no such session
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'INDHYDELP029', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true, webdriver.remote.sessionid: 540da5b14e3e14a29dd41a2a673...}
+Session ID: 540da5b14e3e14a29dd41a2a6738d409
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:435)
+	at com.maventest.mavens.TestCase2.exitApplication(TestCase2.java:140)
+	at com.maventest.mavens.TestCase2.testCase2(TestCase2.java:77)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -32,58 +229,211 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
+            <line>
+              <![CDATA[<B><Font Color = "black">Driver Launched :null </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[Navigated tohttp://opensource.demo.orangehrmlive.com/]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">UserName entered ::Admin </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">Password entered ::admin </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">Submit buttin Clicked </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: Admin's organization of organization name]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">3.  Actual= Admin's organization;  Expected= OrangeHRM (Pvt) Ltd ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM (Pvt) Ltd] but found [Admin's organization]</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text:  of organization tax ID]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">4.  Actual= ;  Expected= 123456 ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [123456] but found []</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">5.  Actual= ;  Expected= 32 ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [32] but found []</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: A23456 of organization registration number]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "green">6.  Actual= A23456;  Expected= A23456 ; PASSED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: info@admin.com of organization email]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">7.  Actual= info@admin.com;  Expected= info@orangehrm.com ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [info@orangehrm.com] but found [info@admin.com]</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: Cankarjeva 2 of organization Address]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">8.  Actual= Cankarjeva 2;  Expected= 538 Teal Plaza ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [538 Teal Plaza] but found [Cankarjeva 2]</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: Novo Mesto of organization city]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">9.  Actual= Novo Mesto;  Expected= Secaucus ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [Secaucus] but found [Novo Mesto]</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[Fetched text: US of organization country]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">10.  Actual= US;  Expected= United states ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [United states] but found [US]</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- demoReportFail -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="getResult" is-config="true" duration-ms="7" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
+        </test-method> <!-- testCase2 -->
+      </class> <!-- com.maventest.mavens.TestCase2 -->
+      <class name="com.maventest.mavens.frameworkCore.WebDriverWrapper">
+        <test-method status="PASS" signature="GenTestNGReport(org.testng.ITestContext)[pri:0, instance:com.maventest.mavens.frameworkCore.WebDriverWrapper@28ac3dc3]" name="GenTestNGReport" is-config="true" duration-ms="11" started-at="2018-05-09T17:06:21Z" finished-at="2018-05-09T17:06:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demoReportFail status=FAILURE method=ExtentManager.demoReportFail()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759] output={null}]]]>
+                <![CDATA[org.testng.TestRunner@71b1176b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="demoReportPass()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="demoReportPass" duration-ms="2" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
+        </test-method> <!-- GenTestNGReport -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.maventest.mavens.frameworkCore.WebDriverWrapper@28ac3dc3]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-05-09T17:06:38Z" finished-at="2018-05-09T17:06:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoReportPass -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="getResult" is-config="true" duration-ms="0" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.maventest.mavens.frameworkCore.WebDriverWrapper -->
+      <class name="com.maventest.mavens.TestCase1">
+        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase1@32eebfca]" name="testCase1" duration-ms="15176" started-at="2018-05-09T17:06:21Z" finished-at="2018-05-09T17:06:36Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=demoReportPass status=SUCCESS method=ExtentManager.demoReportPass()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759] output={null}]]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[<B><Font Color = "black">Driver Launched :chrome </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[Navigated tohttp://opensource.demo.orangehrmlive.com/]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">UserName entered ::Admin </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">Password entered ::admin </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">Submit buttin Clicked </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "green">1.  Actual= Welcome Admin;  Expected= Welcome Admin ; PASSED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "red">2.  Actual= OrangeHRM1;  Expected= OrangeHRM ; FAILED </Font></B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM] but found [OrangeHRM1]</B>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.maventest.mavens.ExtentManager@14bf9759]" name="endReport" is-config="true" duration-ms="263" started-at="2018-04-26T11:38:45Z" finished-at="2018-04-26T11:38:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- com.maventest.mavens.ExtentManager -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testCase1 -->
+      </class> <!-- com.maventest.mavens.TestCase1 -->
+    </test> <!-- chrome -->
+  </suite> <!-- Suite -->
 </testng-results>

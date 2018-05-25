@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="15.176">
+           time="17.112">
   <properties />
   
   
-            <testcase name="testCase1" time="15.176" classname="com.maventest.mavens.TestCase1" />
+            <testcase name="testCase1" time="17.112" classname="com.maventest.mavens.TestCase1" />
       
 </testsuite>

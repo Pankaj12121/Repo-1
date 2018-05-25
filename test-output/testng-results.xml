@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<B><Font Color = "black">Driver Launched :null </Font></B>]]>
+      <![CDATA[<B><Font Color = "black">Driver Launched :chrome </Font></B>]]>
     </line>
     <line>
-      <![CDATA[<B><Font Color = "black">Driver Launched :chrome </Font></B>]]>
+      <![CDATA[<B><Font Color = "black">Driver Launched :null </Font></B>]]>
     </line>
     <line>
       <![CDATA[Navigated tohttp://opensource.demo.orangehrmlive.com/]]>
@@ -47,22 +47,19 @@
       <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM] but found [OrangeHRM1]</B>]]>
     </line>
     <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_10PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_10PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
     </line>
     <line>
-      <![CDATA[Fetched text: Admin's organization of organization name]]>
+      <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
+    </line>
+    <line>
+      <![CDATA[Fetched text: OrangeHRM (Pvt) Ltd of organization name]]>
     </line>
     <line>
       <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[<B><Font Color = "red">3.  Actual= Admin's organization;  Expected= OrangeHRM (Pvt) Ltd ; FAILED </Font></B>]]>
-    </line>
-    <line>
-      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM (Pvt) Ltd] but found [Admin's organization]</B>]]>
-    </line>
-    <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+      <![CDATA[<B><Font Color = "green">3.  Actual= OrangeHRM (Pvt) Ltd;  Expected= OrangeHRM (Pvt) Ltd ; PASSED </Font></B>]]>
     </line>
     <line>
       <![CDATA[Fetched text:  of organization tax ID]]>
@@ -77,7 +74,7 @@
       <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [123456] but found []</B>]]>
     </line>
     <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
     </line>
     <line>
       <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
@@ -89,7 +86,7 @@
       <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [32] but found []</B>]]>
     </line>
     <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
     </line>
     <line>
       <![CDATA[Fetched text: A23456 of organization registration number]]>
@@ -101,52 +98,31 @@
       <![CDATA[<B><Font Color = "green">6.  Actual= A23456;  Expected= A23456 ; PASSED </Font></B>]]>
     </line>
     <line>
-      <![CDATA[Fetched text: info@admin.com of organization email]]>
+      <![CDATA[Fetched text: info@orangehrm.com of organization email]]>
     </line>
     <line>
       <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[<B><Font Color = "red">7.  Actual= info@admin.com;  Expected= info@orangehrm.com ; FAILED </Font></B>]]>
+      <![CDATA[<B><Font Color = "green">7.  Actual= info@orangehrm.com;  Expected= info@orangehrm.com ; PASSED </Font></B>]]>
     </line>
     <line>
-      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [info@orangehrm.com] but found [info@admin.com]</B>]]>
-    </line>
-    <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
-    </line>
-    <line>
-      <![CDATA[Fetched text: Cankarjeva 2 of organization Address]]>
+      <![CDATA[Fetched text: 538 Teal Plaza of organization Address]]>
     </line>
     <line>
       <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[<B><Font Color = "red">8.  Actual= Cankarjeva 2;  Expected= 538 Teal Plaza ; FAILED </Font></B>]]>
+      <![CDATA[<B><Font Color = "green">8.  Actual= 538 Teal Plaza;  Expected= 538 Teal Plaza ; PASSED </Font></B>]]>
     </line>
     <line>
-      <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
-    </line>
-    <line>
-      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [538 Teal Plaza] but found [Cankarjeva 2]</B>]]>
-    </line>
-    <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
-    </line>
-    <line>
-      <![CDATA[Fetched text: Novo Mesto of organization city]]>
+      <![CDATA[Fetched text: Secaucus of organization city]]>
     </line>
     <line>
       <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[<B><Font Color = "red">9.  Actual= Novo Mesto;  Expected= Secaucus ; FAILED </Font></B>]]>
-    </line>
-    <line>
-      <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [Secaucus] but found [Novo Mesto]</B>]]>
-    </line>
-    <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+      <![CDATA[<B><Font Color = "green">9.  Actual= Secaucus;  Expected= Secaucus ; PASSED </Font></B>]]>
     </line>
     <line>
       <![CDATA[Fetched text: US of organization country]]>
@@ -161,22 +137,22 @@
       <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [United states] but found [US]</B>]]>
     </line>
     <line>
-      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+      <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_12PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_12PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
     </line>
     <line>
       <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="16404" started-at="2018-05-09T11:36:21Z" finished-at="2018-05-09T11:36:38Z">
+  <suite name="Suite" duration-ms="21266" started-at="2018-05-21T13:28:53Z" finished-at="2018-05-21T13:29:14Z">
     <groups>
       <group name="Regression">
         <method signature="TestCase1.testCase1(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase1@32eebfca]" name="testCase1" class="com.maventest.mavens.TestCase1"/>
         <method signature="TestCase2.testCase2(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase2@4e718207]" name="testCase2" class="com.maventest.mavens.TestCase2"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="chrome" duration-ms="16404" started-at="2018-05-09T11:36:21Z" finished-at="2018-05-09T11:36:38Z">
+    <test name="chrome" duration-ms="21266" started-at="2018-05-21T13:28:53Z" finished-at="2018-05-21T13:29:14Z">
       <class name="com.maventest.mavens.TestCase2">
-        <test-method status="FAIL" signature="testCase2(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase2@4e718207]" name="testCase2" duration-ms="16380" started-at="2018-05-09T17:06:21Z" finished-at="2018-05-09T17:06:38Z">
+        <test-method status="FAIL" signature="testCase2(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase2@4e718207]" name="testCase2" duration-ms="21235" started-at="2018-05-21T18:58:53Z" finished-at="2018-05-21T18:59:14Z">
           <params>
             <param index="0">
               <value>
@@ -190,20 +166,20 @@
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'INDHYDELP029', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'INDHYDELP029', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true, webdriver.remote.sessionid: 540da5b14e3e14a29dd41a2a673...}
-Session ID: 540da5b14e3e14a29dd41a2a6738d409]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true, webdriver.remote.sessionid: 79287b6b2619fafab213a540afe...}
+Session ID: 79287b6b2619fafab213a540afece2b3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: no such session
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'INDHYDELP029', ip: '192.168.43.245', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'INDHYDELP029', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true, webdriver.remote.sessionid: 540da5b14e3e14a29dd41a2a673...}
-Session ID: 540da5b14e3e14a29dd41a2a6738d409
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\pankajs\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true, webdriver.remote.sessionid: 79287b6b2619fafab213a540afe...}
+Session ID: 79287b6b2619fafab213a540afece2b3
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -252,19 +228,13 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
               <![CDATA[<B><Font Color = "black">Submit buttin Clicked </Font></B>]]>
             </line>
             <line>
-              <![CDATA[Fetched text: Admin's organization of organization name]]>
+              <![CDATA[Fetched text: OrangeHRM (Pvt) Ltd of organization name]]>
             </line>
             <line>
               <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[<B><Font Color = "red">3.  Actual= Admin's organization;  Expected= OrangeHRM (Pvt) Ltd ; FAILED </Font></B>]]>
-            </line>
-            <line>
-              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM (Pvt) Ltd] but found [Admin's organization]</B>]]>
-            </line>
-            <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+              <![CDATA[<B><Font Color = "green">3.  Actual= OrangeHRM (Pvt) Ltd;  Expected= OrangeHRM (Pvt) Ltd ; PASSED </Font></B>]]>
             </line>
             <line>
               <![CDATA[Fetched text:  of organization tax ID]]>
@@ -279,7 +249,7 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
               <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [123456] but found []</B>]]>
             </line>
             <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_35PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
             </line>
             <line>
               <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
@@ -291,7 +261,7 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
               <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [32] but found []</B>]]>
             </line>
             <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_11PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
             </line>
             <line>
               <![CDATA[Fetched text: A23456 of organization registration number]]>
@@ -303,49 +273,31 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
               <![CDATA[<B><Font Color = "green">6.  Actual= A23456;  Expected= A23456 ; PASSED </Font></B>]]>
             </line>
             <line>
-              <![CDATA[Fetched text: info@admin.com of organization email]]>
+              <![CDATA[Fetched text: info@orangehrm.com of organization email]]>
             </line>
             <line>
               <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[<B><Font Color = "red">7.  Actual= info@admin.com;  Expected= info@orangehrm.com ; FAILED </Font></B>]]>
+              <![CDATA[<B><Font Color = "green">7.  Actual= info@orangehrm.com;  Expected= info@orangehrm.com ; PASSED </Font></B>]]>
             </line>
             <line>
-              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [info@orangehrm.com] but found [info@admin.com]</B>]]>
-            </line>
-            <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_36PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
-            </line>
-            <line>
-              <![CDATA[Fetched text: Cankarjeva 2 of organization Address]]>
+              <![CDATA[Fetched text: 538 Teal Plaza of organization Address]]>
             </line>
             <line>
               <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[<B><Font Color = "red">8.  Actual= Cankarjeva 2;  Expected= 538 Teal Plaza ; FAILED </Font></B>]]>
+              <![CDATA[<B><Font Color = "green">8.  Actual= 538 Teal Plaza;  Expected= 538 Teal Plaza ; PASSED </Font></B>]]>
             </line>
             <line>
-              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [538 Teal Plaza] but found [Cankarjeva 2]</B>]]>
-            </line>
-            <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
-            </line>
-            <line>
-              <![CDATA[Fetched text: Novo Mesto of organization city]]>
+              <![CDATA[Fetched text: Secaucus of organization city]]>
             </line>
             <line>
               <![CDATA[-----------------------------------------------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[<B><Font Color = "red">9.  Actual= Novo Mesto;  Expected= Secaucus ; FAILED </Font></B>]]>
-            </line>
-            <line>
-              <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [Secaucus] but found [Novo Mesto]</B>]]>
-            </line>
-            <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_37PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+              <![CDATA[<B><Font Color = "green">9.  Actual= Secaucus;  Expected= Secaucus ; PASSED </Font></B>]]>
             </line>
             <line>
               <![CDATA[Fetched text: US of organization country]]>
@@ -360,7 +312,7 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
               <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [United states] but found [US]</B>]]>
             </line>
             <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_38PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_12PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_12PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
             </line>
             <line>
               <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
@@ -369,7 +321,7 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
         </test-method> <!-- testCase2 -->
       </class> <!-- com.maventest.mavens.TestCase2 -->
       <class name="com.maventest.mavens.frameworkCore.WebDriverWrapper">
-        <test-method status="PASS" signature="GenTestNGReport(org.testng.ITestContext)[pri:0, instance:com.maventest.mavens.frameworkCore.WebDriverWrapper@28ac3dc3]" name="GenTestNGReport" is-config="true" duration-ms="11" started-at="2018-05-09T17:06:21Z" finished-at="2018-05-09T17:06:21Z">
+        <test-method status="PASS" signature="GenTestNGReport(org.testng.ITestContext)[pri:0, instance:com.maventest.mavens.frameworkCore.WebDriverWrapper@28ac3dc3]" name="GenTestNGReport" is-config="true" duration-ms="12" started-at="2018-05-21T18:58:53Z" finished-at="2018-05-21T18:58:53Z">
           <params>
             <param index="0">
               <value>
@@ -380,13 +332,13 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GenTestNGReport -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.maventest.mavens.frameworkCore.WebDriverWrapper@28ac3dc3]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-05-09T17:06:38Z" finished-at="2018-05-09T17:06:38Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.maventest.mavens.frameworkCore.WebDriverWrapper@28ac3dc3]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-05-21T18:59:14Z" finished-at="2018-05-21T18:59:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.maventest.mavens.frameworkCore.WebDriverWrapper -->
       <class name="com.maventest.mavens.TestCase1">
-        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase1@32eebfca]" name="testCase1" duration-ms="15176" started-at="2018-05-09T17:06:21Z" finished-at="2018-05-09T17:06:36Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.maventest.mavens.TestCase1@32eebfca]" name="testCase1" duration-ms="17112" started-at="2018-05-21T18:58:53Z" finished-at="2018-05-21T18:59:10Z">
           <params>
             <param index="0">
               <value>
@@ -426,7 +378,7 @@ Session ID: 540da5b14e3e14a29dd41a2a6738d409
               <![CDATA[<B>TestCase Failed Due to:::java.lang.AssertionError: expected [OrangeHRM] but found [OrangeHRM1]</B>]]>
             </line>
             <line>
-              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM05_06_34PM09_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
+              <![CDATA[<br> <a target = "_blank" href="C:\Tosca\ScreenShot\OrangeHRM06_59_10PM21_May_2018.png"><img src="C:\Tosca\ScreenShot\OrangeHRM06_59_10PM21_May_2018.png" alt="ScreenShot Not Available" height="400" width="400"> </a>]]>
             </line>
             <line>
               <![CDATA[<B><Font Color = "black">TestCase Executed Successfully </Font></B>]]>
